@@ -62,3 +62,8 @@ if ( ! function_exists('blue_ink_setup')){
 /**
  * widgets
  */
+
+ function blue_ink_widgets()
+ {
+     # code...
+ }
