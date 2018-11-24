@@ -1,0 +1,107 @@
+/* overall */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    display: block;
+    word-wrap: break-word;
+}
+body {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #8c9597;
+    line-height: 26px;
+    background-color: #292929;    
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Francois One', sans-serif;
+}
+h1 {
+	font-size: 80px;
+	line-height: 84px;
+	font-weight: 700;
+}
+h2 {
+	font-size: 65px;
+	line-height: 70px;
+	font-weight: 700;
+}
+h3 {
+	font-size: 35px;
+	line-height: 38px;
+	font-weight: 700;
+}
+h4 {
+	font-size: 25px;
+	line-height: 32px;
+	font-weight: 700;
+}
+h5 {
+	font-size: 23px;
+	line-height: 32px;
+	font-weight: 700;
+}
+h6 {
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 700;
+}
+textarea,
+input {
+	-webkit-appearance: none;
+	border-radius: 0;
+}
+ul,
+ol {
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 26px;
+	font-weight: 400;
+}
+a {
+	color: #8c979e;
+}
+a:hover, a:focus {
+	color: #087879;
+	text-decoration: none;
+}
+
+.front-piece {
+    width: 100%;
+    text-align: center;
+}
+.front-piece .piece-header {
+    margin-bottom: 65px;
+    width: 100%;
+}
+.front-piece .piece-header h3 {
+    margin: 0 0 5px 0;
+    color: #545454;
+}
+.front-piece .piece-descr img {
+    max-width: 100%;
+}
+.front-piece .piece-header .piece-descr {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #8c9597;
+    line-height: 26px;
+    margin-bottom: 0;
+}
+
+.front-piece .piece-content {
+    width: 100%;
+}
+
+.open-responsive-menu {
+    display: none;
+}
+
+.responsive-menu {
+    display: none;
+}
+
+/* header */
