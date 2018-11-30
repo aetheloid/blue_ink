@@ -259,3 +259,79 @@ a:hover, a:focus {
 	color: #3dc79d;
 	text-decoration: none;
 }
+
+#header .lower-header {
+	width: 100%;
+	padding-top: 240px;
+	padding-bottom: 280px;
+	text-align: center;
+}
+#header .lower-header h1 {
+	margin: 0 0 29 0;
+	line-height: 84px;
+	font-weight: 700;
+	font-size: 80px;
+	color: #fff;
+	font-family: 'Francois One', sans-serif;
+}
+#header .lower-header h1 span {
+	word-wrap: break-word;
+}
+#header .lower-header .span.span-dot {
+	color: #3dc79d;
+}
+#header .lower-header .piece-descr {
+	font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 26px;
+    margin-bottom: 60px;
+}
+#header .lower-header .header-button-left {
+	width: auto;
+	min-width: 242px;
+	height: 63px;
+	line-height: 57px;
+	background: rgba(255, 255, 255, 0.1);
+	margin: 0 15px;
+	padding: 0 70px;
+	display: inline-block;
+	border: 3px solid #fff;
+	border-radius: 3px;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #fff;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: 0.3s;
+}
+#header .lower-header .header-button-left:hover {
+	text-decoration: none;
+	background: rgba(255, 255, 255, 0.1);
+}
+#header .lower-header .header-button-right {
+	width: auto;
+	min-width: 242px;
+	height: 63px;
+	line-height: 63px;
+	background: #5BC0A2;
+	margin: 0 15px;
+	padding: 0 70px;
+	display: inline-block;
+	border-radius: 3px;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #fff;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: 0.3s;
+}
+#header .lower-header .header-button-right:hover {
+	text-decoration: none;
+	background: rgba(42, 143, 100, 0.9);
+}
