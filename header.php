@@ -6,6 +6,20 @@
  * @subpackage  blue_ink
  */
 ?>
+
+
+<?php
+
+$logo_id                    = get_theme_mod( 'custom_logo' );
+$logo_image                 = wp_get_attachment_image_scr( $logo_id, 'full' );
+$text_logo                  = get_theme_mod()
+$jumbotron_general_image    = get_theme_mod()
+$jumbotron_single_image     = get_theme_mod()
+$jumbotron_parallax_enable  = get_theme_mod()
+
+$style = '';
+
+
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 
